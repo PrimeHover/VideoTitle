@@ -26,19 +26,19 @@
  @desc Name and extension of the image to be shown when the video is loading (E.g. "poster.png")
 
  @param Video Width
- @desc Width of the video (Default: 816)
+ @desc Width of the video in the canvas (Default: 816)
  @default 816
 
  @param Video Height
- @desc Height of the video (Default: 624)
+ @desc Height of the video in the canvas (Default: 624)
  @default 624
 
  @param Video Coord X
- @desc Coordinate X of the video (Default: 0)
+ @desc Coordinate X of the video in the canvas (Default: 0)
  @default 0
 
  @param Video Coord Y
- @desc Coordinate Y of the video (Default: 0)
+ @desc Coordinate Y of the video in the canvas (Default: 0)
  @default 0
 
  @help
