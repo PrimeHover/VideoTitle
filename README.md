@@ -23,6 +23,6 @@ This plugin allows you to put a video at the background of the Title Screen inst
 * Execute your game and you will see the video in background.
 
 ### ChangeLog
-* Version 1.1
+* 11/12/2015: Version 1.1
 * 11/03/2015: README.md updated
 * 11/02/2015: Version 1.0
