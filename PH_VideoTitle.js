@@ -3,8 +3,8 @@
  PH - Video Title
  @plugindesc This plugin allows you to put a video at the background of the Title Screen instead of a static image.
  @author PrimeHover
- @version 1.0
- @date 11/02/2015
+ @version 1.1
+ @date 11/12/2015
 
  ---------------------------------------------------------------------------------------
  This work is licensed under the Creative Commons Attribution 4.0 International License.
@@ -12,7 +12,7 @@
  ---------------------------------------------------------------------------------------
 
  @param Video Name
- @desc Name and extension of the video (See Help Section) | (E.g. "myVideo.webm")
+ @desc Name of the video (See Help Section) | (E.g. "myVideo")
 
  @param Video Muted
  @desc Mutes the video in the title (0: No, 1: Yes)
@@ -44,7 +44,7 @@
  @help
 
  The video you want to play in background must be inside the "movies" folder in your project.
- Supported extensions: "webm" and "mp4" ("webm" is more recommended once it is the new standard for HTML5; "mp4" extensions may not work in some computers).
+ Supported extensions: "webm"
 
  The poster you want to show while the video is not ready must be inside the "pictures" folder in your project.
 
@@ -73,7 +73,7 @@
         /* Creating video tag */
         this._video = document.createElement('video');
         this._video.id = 'VideoTitle_' + this.name.replace(/[^A-Z0-9]+/ig, "_");
-        this._video.src = 'movies/' + this.name;
+        this._video.src = 'movies/' + this.name + '.webm';
         this._video.style.width = 0;
         this._video.style.height = 0;
         this._video.autoPlay = false;
