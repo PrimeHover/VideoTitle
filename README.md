@@ -1,11 +1,14 @@
 # VideoTitle
 This plugin allows you to put a video at the background of the Title Screen instead of a static image.
 
-### How to Use
+### Installation
 * Download the JS file and include it into the ```/plugins``` folder of your project.
 * Open the Plugin Manager, select the file **PH_VideoTitle.js**, and turn it on.
 * Use the ```Video Name``` parameter to define the name of the video you want to exhibit in the background. This video must be inside the ```/movies``` folder of your project (Only ``webm`` extension is allowed).
 * You may want to define an optional poster image in the variable ``Video Poster Name``. The image should be located into the ``/img/pictures`` folder of your project.
+
+### How to Use
+* You can check out the full documentation with an example in [HERE](http://primehover.gufernandes.com.br/ph-video-title).
 
 ### Parameters
 * ``Video Name``: Name of the video.
