@@ -20,11 +20,6 @@ This plugin allows you to put a video at the background of the Title Screen inst
 * ``Video Coord X``: Coordinate X of the video in the canvas (Default: 0)
 * ``Video Coord Y``: Coordinate Y of the video in the canvas (Default: 0)
 
-### Example
-* Download the video from [this website](http://video.webmfiles.org/big-buck-bunny_trailer.webm) and save it into your ``movies`` folder.
-* Set the value of the variable ``Video Title`` to **big-buck-bunny_trailer**.
-* Execute your game and you will see the video in background.
-
 ### ChangeLog
 * 11/12/2015: Version 1.1
 * 11/03/2015: README.md updated
